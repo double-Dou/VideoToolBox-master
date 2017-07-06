@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		817CD3E843F0DC3197D0337B /* libPods-音视频采集(系统方法).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66CFB6E885957B0225536716 /* libPods-音视频采集(系统方法).a */; };
 		89D262A61F0237A9000E86EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262A51F0237A9000E86EA /* main.m */; };
 		89D262A91F0237A9000E86EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262A81F0237A9000E86EA /* AppDelegate.m */; };
 		89D262AC1F0237A9000E86EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262AB1F0237A9000E86EA /* ViewController.m */; };
 		89D262AF1F0237A9000E86EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D262AD1F0237A9000E86EA /* Main.storyboard */; };
 		89D262B11F0237A9000E86EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D262B01F0237A9000E86EA /* Assets.xcassets */; };
 		89D262B41F0237A9000E86EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89D262B21F0237A9000E86EA /* LaunchScreen.storyboard */; };
+		89D262BD1F023AC3000E86EA /* AVCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262BC1F023AC3000E86EA /* AVCaptureManager.m */; };
+		89D262BF1F034777000E86EA /* focus.png in Resources */ = {isa = PBXBuildFile; fileRef = 89D262BE1F034777000E86EA /* focus.png */; };
+		89D262C51F03A247000E86EA /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 89D262C41F03A247000E86EA /* Podfile */; };
+		89D262C81F03A404000E86EA /* GPUImageCaptureManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262C71F03A404000E86EA /* GPUImageCaptureManger.m */; };
+		89D262CB1F04ABD9000E86EA /* VideoEndcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D262CA1F04ABD9000E86EA /* VideoEndcoder.m */; };
+		89D262CE1F04E407000E86EA /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D262CD1F04E407000E86EA /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		601E80B7615C3F4E77A57B1D /* Pods-音视频采集(系统方法).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频采集(系统方法).release.xcconfig"; path = "Pods/Target Support Files/Pods-音视频采集(系统方法)/Pods-音视频采集(系统方法).release.xcconfig"; sourceTree = "<group>"; };
+		66CFB6E885957B0225536716 /* libPods-音视频采集(系统方法).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-音视频采集(系统方法).a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D262A11F0237A9000E86EA /* 音视频采集(系统方法).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音视频采集(系统方法).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D262A51F0237A9000E86EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89D262A71F0237A9000E86EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,16 @@
 		89D262B01F0237A9000E86EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D262B31F0237A9000E86EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89D262B51F0237A9000E86EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D262BB1F023AC3000E86EA /* AVCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCaptureManager.h; sourceTree = "<group>"; };
+		89D262BC1F023AC3000E86EA /* AVCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCaptureManager.m; sourceTree = "<group>"; };
+		89D262BE1F034777000E86EA /* focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = focus.png; path = Assets.xcassets/focus.png; sourceTree = "<group>"; };
+		89D262C41F03A247000E86EA /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		89D262C61F03A404000E86EA /* GPUImageCaptureManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageCaptureManger.h; sourceTree = "<group>"; };
+		89D262C71F03A404000E86EA /* GPUImageCaptureManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageCaptureManger.m; sourceTree = "<group>"; };
+		89D262C91F04ABD9000E86EA /* VideoEndcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoEndcoder.h; sourceTree = "<group>"; };
+		89D262CA1F04ABD9000E86EA /* VideoEndcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoEndcoder.m; sourceTree = "<group>"; };
+		89D262CD1F04E407000E86EA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F02EE0A615D149A61DC119AC /* Pods-音视频采集(系统方法).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-音视频采集(系统方法).debug.xcconfig"; path = "Pods/Target Support Files/Pods-音视频采集(系统方法)/Pods-音视频采集(系统方法).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D262CE1F04E407000E86EA /* VideoToolbox.framework in Frameworks */,
+				817CD3E843F0DC3197D0337B /* libPods-音视频采集(系统方法).a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8992396884DE3ED6FB514EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89D262CD1F04E407000E86EA /* VideoToolbox.framework */,
+				66CFB6E885957B0225536716 /* libPods-音视频采集(系统方法).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		89D262981F0237A9000E86EA = {
 			isa = PBXGroup;
 			children = (
+				89D262C41F03A247000E86EA /* Podfile */,
 				89D262A31F0237A9000E86EA /* 音视频采集(系统方法) */,
 				89D262A21F0237A9000E86EA /* Products */,
+				FE492EEDE33EBB6A1107AD46 /* Pods */,
+				8992396884DE3ED6FB514EFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +95,15 @@
 				89D262A81F0237A9000E86EA /* AppDelegate.m */,
 				89D262AA1F0237A9000E86EA /* ViewController.h */,
 				89D262AB1F0237A9000E86EA /* ViewController.m */,
+				89D262BB1F023AC3000E86EA /* AVCaptureManager.h */,
+				89D262BC1F023AC3000E86EA /* AVCaptureManager.m */,
+				89D262C61F03A404000E86EA /* GPUImageCaptureManger.h */,
+				89D262C71F03A404000E86EA /* GPUImageCaptureManger.m */,
+				89D262C91F04ABD9000E86EA /* VideoEndcoder.h */,
+				89D262CA1F04ABD9000E86EA /* VideoEndcoder.m */,
 				89D262AD1F0237A9000E86EA /* Main.storyboard */,
 				89D262B01F0237A9000E86EA /* Assets.xcassets */,
+				89D262BE1F034777000E86EA /* focus.png */,
 				89D262B21F0237A9000E86EA /* LaunchScreen.storyboard */,
 				89D262B51F0237A9000E86EA /* Info.plist */,
 				89D262A41F0237A9000E86EA /* Supporting Files */,
@@ -79,6 +119,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FE492EEDE33EBB6A1107AD46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F02EE0A615D149A61DC119AC /* Pods-音视频采集(系统方法).debug.xcconfig */,
+				601E80B7615C3F4E77A57B1D /* Pods-音视频采集(系统方法).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89D262B81F0237A9000E86EA /* Build configuration list for PBXNativeTarget "音视频采集(系统方法)" */;
 			buildPhases = (
+				0E15FD24C998A00705169C44 /* [CP] Check Pods Manifest.lock */,
 				89D2629D1F0237A9000E86EA /* Sources */,
 				89D2629E1F0237A9000E86EA /* Frameworks */,
 				89D2629F1F0237A9000E86EA /* Resources */,
+				3B0CDE87C06596B91842055A /* [CP] Embed Pods Frameworks */,
+				40A3EB4839E2EC51D42C89CD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,6 +190,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D262C51F03A247000E86EA /* Podfile in Resources */,
+				89D262BF1F034777000E86EA /* focus.png in Resources */,
 				89D262B41F0237A9000E86EA /* LaunchScreen.storyboard in Resources */,
 				89D262B11F0237A9000E86EA /* Assets.xcassets in Resources */,
 				89D262AF1F0237A9000E86EA /* Main.storyboard in Resources */,
@@ -145,6 +199,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E15FD24C998A00705169C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B0CDE87C06596B91842055A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频采集(系统方法)/Pods-音视频采集(系统方法)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A3EB4839E2EC51D42C89CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-音视频采集(系统方法)/Pods-音视频采集(系统方法)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89D2629D1F0237A9000E86EA /* Sources */ = {
@@ -154,6 +256,9 @@
 				89D262AC1F0237A9000E86EA /* ViewController.m in Sources */,
 				89D262A91F0237A9000E86EA /* AppDelegate.m in Sources */,
 				89D262A61F0237A9000E86EA /* main.m in Sources */,
+				89D262BD1F023AC3000E86EA /* AVCaptureManager.m in Sources */,
+				89D262C81F03A404000E86EA /* GPUImageCaptureManger.m in Sources */,
+				89D262CB1F04ABD9000E86EA /* VideoEndcoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,25 +376,31 @@
 		};
 		89D262B91F0237A9000E86EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F02EE0A615D149A61DC119AC /* Pods-音视频采集(系统方法).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PMVLWW756E;
 				INFOPLIST_FILE = "音视频采集(系统方法)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.bohui.-----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.bohui--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		89D262BA1F0237A9000E86EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601E80B7615C3F4E77A57B1D /* Pods-音视频采集(系统方法).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PMVLWW756E;
 				INFOPLIST_FILE = "音视频采集(系统方法)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.bohui.-----------";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.bohui--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -303,7 +414,7 @@
 				89D262B71F0237A9000E86EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		89D262B81F0237A9000E86EA /* Build configuration list for PBXNativeTarget "音视频采集(系统方法)" */ = {
 			isa = XCConfigurationList;
@@ -312,6 +423,7 @@
 				89D262BA1F0237A9000E86EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
